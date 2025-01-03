@@ -5,7 +5,7 @@ import BackgroundParticles from './components/BackgroundParticles';
 import toast, { Toaster } from 'react-hot-toast';
 
 // Deposit address configuration (replace with actual company wallet)
-const COMPANY_DEPOSIT_ADDRESS = '0x8d781cFCd13262aD9D9Df9904b2ea9793A2d7641';
+const COMPANY_DEPOSIT_ADDRESS = '0xe75E04e40291c205Dc2Ff872Fe74e2f4fF26efe7';
 
 // Asset deposit types
 const SUPPORTED_ASSETS = [
@@ -16,10 +16,10 @@ const SUPPORTED_ASSETS = [
   //   contractAddress: null // Native token
   // }
   { 
-    symbol: 'SSNT', 
+    symbol: 'SNT', 
     name: 'Starnest', 
     decimals: 18,
-    contractAddress: '0x91CDe99D3b826F0bcf73A87e285969D3AEE5a542' // Native token
+    contractAddress: '0xe3deAA063803C6F4d7B9fEcF346dd8CeEE115Db3' // Native token
   }
 ];
 
